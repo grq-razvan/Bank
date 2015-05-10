@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="layers.connection.SQLConnecter" project="assignment_1" 
+    file="/assignment_1/src/layers/connection/SQLConnecter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="160" x="231" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="layers.data.AccountGateway" project="assignment_1" 
+    file="/assignment_1/src/layers/data/AccountGateway.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="241" x="278" y="356"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="layers.data.AccountMapper" project="assignment_1" 
+    file="/assignment_1/src/layers/data/AccountMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="249" x="431" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="layers.data.ClientGateway" project="assignment_1" 
+    file="/assignment_1/src/layers/data/ClientGateway.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="197" x="41" y="356"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="layers.data.EmployeeGateway" project="assignment_1" 
+    file="/assignment_1/src/layers/data/EmployeeGateway.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="287" x="763" y="4240"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="layers.data.EmployeeMapper" project="assignment_1" 
+    file="/assignment_1/src/layers/data/EmployeeMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="280" x="763" y="3777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="layers.model.Account" project="assignment_1" 
+    file="/assignment_1/src/layers/model/Account.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="226" x="1438" y="3368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="layers.model.Client" project="assignment_1" 
+    file="/assignment_1/src/layers/model/Client.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="150" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="layers.model.Employee" project="assignment_1" 
+    file="/assignment_1/src/layers/model/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="277" x="1377" y="3777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="layers.logic.EmployeeAdministratorOperations" project="assignment_1" 
+    file="/assignment_1/src/layers/logic/EmployeeAdministratorOperations.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="329" x="934" y="2411"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="layers.logic.EmployeeOperations" project="assignment_1" 
+    file="/assignment_1/src/layers/logic/EmployeeOperations.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="283" x="2361" y="2411"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="layers.logic.InputValidator" project="assignment_1" 
+    file="/assignment_1/src/layers/logic/InputValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="241" x="1303" y="2411"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="layers.logic.LoggingHelper" project="assignment_1" 
+    file="/assignment_1/src/layers/logic/LoggingHelper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="299" x="1438" y="2995"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="layers.logic.LoginUserRetriever" project="assignment_1" 
+    file="/assignment_1/src/layers/logic/LoginUserRetriever.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="187" x="934" y="3368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="layers.logic.LoginValidator" project="assignment_1" 
+    file="/assignment_1/src/layers/logic/LoginValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="195" x="1161" y="3368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="layers.logic.ReportGenerator" project="assignment_1" 
+    file="/assignment_1/src/layers/logic/ReportGenerator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="259" x="934" y="2748"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="layers.presentation.frame.Frame" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/frame/Frame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="118" x="3682" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="layers.presentation.main.EntryPoint" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/main/EntryPoint.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="3682" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="layers.presentation.menu.Menu" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/menu/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="891" width="228" x="1754" y="855"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="layers.presentation.windows.LoginWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/LoginWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="199" x="1754" y="356"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="layers.presentation.windows.WelcomeWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/WelcomeWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="127" x="580" y="855"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="layers.presentation.windows.Window" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/Window.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="131" x="2003" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="layers.presentation.windows.account.UpdateWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/account/UpdateWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="477" width="222" x="2754" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="layers.presentation.windows.account.DeleteWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/account/DeleteWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="169" x="1960" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="layers.presentation.windows.account.CreateWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/account/CreateWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="477" width="222" x="3016" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="layers.presentation.windows.client.ReadWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/client/ReadWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="152" x="2361" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="layers.presentation.windows.client.UpdateWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/client/UpdateWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="152" x="2169" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="layers.presentation.windows.client.DeleteWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/client/DeleteWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="152" x="3278" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="layers.presentation.windows.client.CreateWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/client/CreateWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="161" x="2553" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="layers.presentation.windows.employee.UpdateWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/employee/UpdateWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="233" x="1145" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="layers.presentation.windows.employee.CreateWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/employee/CreateWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="233" x="1418" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="layers.presentation.windows.employee.ReadWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/employee/ReadWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="171" x="934" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="layers.presentation.windows.employee.DeleteWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/employee/DeleteWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="171" x="517" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="layers.presentation.windows.services.TransactionWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/services/TransactionWindow.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="423" width="172" x="3470" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="layers.presentation.windows.services.PaymentWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/services/PaymentWindow.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="369" width="166" x="1754" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="layers.presentation.windows.services.ReportWindow" project="assignment_1" 
+    file="/assignment_1/src/layers/presentation/windows/services/ReportWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="166" x="728" y="1786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <generalization id="38">    
+    <bendpoint x="2631" y="855"/>    
+    <bendpoint x="2631" y="356"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <generalization id="40">    
+    <bendpoint x="2387" y="855"/>    
+    <bendpoint x="2387" y="356"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="45">    
+    <bendpoint x="1660" y="855"/>    
+    <bendpoint x="1660" y="356"/>    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="46">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="47">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="48" name="accountTableGateway"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="50">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="54">    
+    <bendpoint x="1681" y="855"/>    
+    <bendpoint x="1681" y="1786"/>    
+    <bendpoint x="1580" y="2411"/>    
+    <bendpoint x="1499" y="2748"/>    
+    <bendpoint x="1407" y="2995"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <generalization id="58">    
+    <bendpoint x="1723" y="855"/>    
+    <bendpoint x="1723" y="356"/>    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="59">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="60">    
+    <bendpoint x="779" y="855"/>    
+    <bendpoint x="486" y="1786"/>    
+    <bendpoint x="494" y="2411"/>    
+    <bendpoint x="501" y="2748"/>    
+    <bendpoint x="507" y="2995"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="61">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="62">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="63" name="employee"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="65">    
+    <bendpoint x="716" y="356"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="66">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="36"/>  
+  </dependency>  
+  <generalization id="67">    
+    <bendpoint x="2012" y="855"/>    
+    <bendpoint x="2012" y="356"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="68">    
+    <bendpoint x="1386" y="2995"/>    
+    <bendpoint x="1386" y="3368"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="69">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="70">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="71">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <generalization id="72">    
+    <bendpoint x="549" y="855"/>    
+    <bendpoint x="549" y="356"/>    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="73">    
+    <bendpoint x="1702" y="1786"/>    
+    <bendpoint x="1601" y="2411"/>    
+    <bendpoint x="1478" y="2748"/>    
+    <bendpoint x="1365" y="2995"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="74">    
+    <bendpoint x="2610" y="855"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="76">    
+    <bendpoint x="1407" y="3368"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="77">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="78">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="79">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="33"/>  
+  </dependency>  
+  <dependency id="80">    
+    <bendpoint x="1909" y="2748"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <generalization id="81">    
+    <bendpoint x="2191" y="855"/>    
+    <bendpoint x="2191" y="356"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="82">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="83">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="84" name="data"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="86">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="32"/>  
+  </dependency>  
+  <dependency id="87">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="88">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="89">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <generalization id="90">    
+    <bendpoint x="2746" y="855"/>    
+    <bendpoint x="2746" y="356"/>    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="91">    
+    <bendpoint x="465" y="1786"/>    
+    <bendpoint x="465" y="2411"/>    
+    <bendpoint x="465" y="2748"/>    
+    <bendpoint x="465" y="2995"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <generalization id="92">    
+    <bendpoint x="737" y="855"/>    
+    <bendpoint x="737" y="356"/>    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="93">    
+    <bendpoint x="444" y="1786"/>    
+    <bendpoint x="444" y="2411"/>    
+    <bendpoint x="444" y="2748"/>    
+    <bendpoint x="444" y="2995"/>    
+    <bendpoint x="507" y="3368"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="94">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="95">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="96">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="35"/>  
+  </dependency>  
+  <dependency id="97">    
+    <bendpoint x="943" y="2995"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="98">    
+    <bendpoint x="486" y="2995"/>    
+    <bendpoint x="486" y="3368"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="99">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="31"/>  
+  </dependency>  
+  <dependency id="100">    
+    <bendpoint x="1723" y="1786"/>    
+    <bendpoint x="1738" y="2411"/>    
+    <bendpoint x="1753" y="2748"/>    
+    <bendpoint x="1767" y="2995"/>    
+    <bendpoint x="1767" y="3368"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="101">    
+    <bendpoint x="1583" y="855"/>    
+    <bendpoint x="1583" y="356"/>    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="102">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="30"/>  
+  </dependency>  
+  <dependency id="103">    
+    <bendpoint x="3691" y="356"/>    
+    <bendpoint x="3691" y="855"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <generalization id="104">    
+    <bendpoint x="2095" y="855"/>    
+    <bendpoint x="2095" y="356"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="105">    
+    <bendpoint x="2652" y="855"/>    
+    <bendpoint x="2652" y="356"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="106">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <generalization id="107">    
+    <bendpoint x="758" y="855"/>    
+    <bendpoint x="758" y="356"/>    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="108">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <generalization id="109">    
+    <bendpoint x="2287" y="855"/>    
+    <bendpoint x="2287" y="356"/>    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="110">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="111">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="34"/>  
+  </dependency>  
+  <dependency id="112">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="113">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <association id="114">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="115" name="gateway"/>      
+      <multiplicity id="116" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="117">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="118">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
